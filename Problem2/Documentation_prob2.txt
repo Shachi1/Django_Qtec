@@ -1,0 +1,38 @@
+i and j are the indexes of text and pattern respectively
+if the text letter matches with pattern letter, to move on to the next letter incerease i and j by 1
+else only incerease i and set j to 0 so that we go to the next letter of text and first letter of pattern
+if j reaches end of pattern count increases by 1 and j is set to 0 to first letter of pattern
+___________________________________________________________________
+
+
+simulation for text = "adadahfdafdathdadadada" and pattern = "dada" :
+
+"adadahfdafdathdadadada"
+ ˆ
+"dada"
+ ˆ
+
+"adadahfdafdathdadadada"
+  ˆ
+"dada"
+ ˆ
+
+"adadahfdafdathdadadada"
+   ˆ
+"dada"
+  ˆ
+
+"adadahfdafdathdadadada"
+    ˆ
+"dada"
+   ˆ
+
+"adadahfdafdathdadadada"
+     ˆ
+"dada"
+    ˆ
+
+"adadahfdafdathdadadada"
+      ˆ
+"dada"
+ ˆ
