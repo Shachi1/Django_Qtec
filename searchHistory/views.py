@@ -5,7 +5,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def say_hello(request):
+def filter_history(request):
     searches = {
         "User1": "what is django",
         "User2": "django stack overflow",
